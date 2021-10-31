@@ -1,0 +1,46 @@
+/*********************************BODY SELECTORS*******************************/
+body {
+  background-color: #303841;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  border-color: grey;
+  width: 5%;
+}
+
+a:link {
+  color: lightgreen;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: #00ADB5;
+}
+
+a:active {
+  color: #00ADB5;
+}
+/********************************CLASS SELECTORS*******************************/
+
+.headings{
+  color: #878ECD;
+  font-family: "Helvetica", sans-serif;
+}
+
+.text{
+  color: #00ADB5;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+
+/****************************ID SELECTORS**************************************/
+#profile {
+  height: 150px;
+  border-radius: 100%;
+}
